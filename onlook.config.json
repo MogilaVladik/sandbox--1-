@@ -1,0 +1,12 @@
+{
+  "name": "meeting-host-roulette",
+  "framework": "nextjs",
+  "buildCommand": "bun run build",
+  "startCommand": "bun run start",
+  "installCommand": "bun install",
+  "outputDirectory": ".next",
+  "port": 3000,
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
