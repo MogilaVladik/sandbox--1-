@@ -7,9 +7,7 @@ export const metadata: Metadata = {
   description:
     "Честный, веселый и автоматический выбор ведущего встречи для вашей команды",
   icons: {
-    icon: [
-      { url: "/ImageIMage.png", type: "image/png" },
-    ],
+    icon: "/ImageIMage.png",
     shortcut: "/ImageIMage.png",
     apple: "/ImageIMage.png",
   },
