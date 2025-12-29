@@ -6,14 +6,17 @@ export const metadata: Metadata = {
   title: "Рулетка Ведущих",
   description:
     "Честный, веселый и автоматический выбор ведущего встречи для вашей команды",
+  icons: {
+    icon: "/ImageIMage.png",
+  },
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-oid="b1jifow">
-      <body className="antialiased" data-oid="hqec2:a">
+    <html lang="en">
+      <body className="antialiased">
         {children}
 
         <Script
@@ -21,8 +24,7 @@ export default function RootLayout({
           strategy="afterInteractive"
           type="module"
           id="onlook-preload-script"
-          data-oid="qkaaltf"
-        ></Script>
+        />
       </body>
     </html>
   );
